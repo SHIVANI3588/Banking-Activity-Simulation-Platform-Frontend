@@ -1,0 +1,47 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', "Helvetica Neue", Arial, sans-serif;
+  background: white;
+  /* Clean background by default */
+  width: 100%;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #1e3c72;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #1e88e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1565c0;
+}
